@@ -17,7 +17,7 @@ int main()
 void printCheckers(int width, int height)
 {
 	cout << "Checkerboard with width " << width << " and height " << height << ": " << endl;
-	cout << printCheckerBoard(width, height);
+	cout << printCheckerBoard(width, height) << endl;
 	cout << "-----------------------------------------------------------------------" << endl;
 }
 void printBox(int width, int height)

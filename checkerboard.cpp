@@ -14,7 +14,7 @@ std::string printCheckerBoard(int width, int height)
 		{
 			board += (isEven(i) ? isEven(j) ? "*" : " " : isEven(j) ? " " : "*");
 		}
-		board += "\n";
+		board += (i < height - 1 ? "\n" : "");
 	}
 	return board;
 }
