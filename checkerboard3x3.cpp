@@ -1,3 +1,13 @@
+/*
+Author: Ashfak Uddin
+Course: CSCI-136
+Instructor: Mike Zamansky
+Assignment: Lab4G
+
+This file defines the threexthreeboard(int, int) function that takes in a width/height and prints out a checkerboard of 3x3 squares, and works for dimensions not 
+divisible by 3.
+*/
+
 #include <iostream>
 
 std::string threexthreeboard(int w, int h)

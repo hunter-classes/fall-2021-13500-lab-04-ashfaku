@@ -1,3 +1,12 @@
+/*
+Author: Ashfak Uddin
+Course: CSCI-136
+Instructor: Mike Zamansky
+Assignment: Lab4B
+
+This file defines the printCheckerBoard(int, int) function that returns a string that's a checkerboard of asterisks, with an inputted width/height
+*/
+
 #include <iostream>
 #include "checkerboard.h"
 

@@ -1,3 +1,12 @@
+/*
+Author: Ashfak Uddin
+Course: CSCI-136
+Instructor: Mike Zamansky
+Assignment: Lab4A
+
+This file defines the box(int, int) function that returns a string that's a box of asterisks with an inputted width/height.
+*/
+
 #include <iostream>
 #include "box.h"
 std::string box(int width, int height)

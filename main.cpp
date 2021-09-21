@@ -5,6 +5,7 @@
 #include "lower.h"
 #include "upper.h"
 #include "trapezoid.h"
+#include "checkerboard3x3.h"
 using std::cout;
 using std::endl;
 void printBox(int width, int height);
@@ -13,6 +14,7 @@ void printCross(int d);
 void printLowerHalf(int d);
 void printUpperHalf(int d);
 void printTrapezoid(int width, int height);
+void print3x3(int width, int height);
 int main()
 {
 	printBox(4, 5);
@@ -29,7 +31,15 @@ int main()
 	printTrapezoid(12, 5);
 	printTrapezoid(5, 3);
 	printTrapezoid(12, 7);
+	print3x3(16, 11);
+	print3x3(27, 27);
 	return 0;
+}
+void print3x3(int width, int height)
+{
+	cout << "3x3 board with a width of " << width << " and a height of " << height << endl;
+	cout << threexthreeboard(width, height) << endl;
+	cout << "-----------------------------------------------------------------------" << endl;
 }
 void printTrapezoid(int width, int height)
 {

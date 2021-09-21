@@ -1,3 +1,12 @@
+/*
+Author: Ashfak Uddin
+Course: CSCI-136
+Instructor: Mike Zamansky
+Assignment: Lab4C
+
+This file defines the cross(int) function that returns a string that's a cross of asterisks with an inputted dimension.
+*/
+
 #include <iostream>
 #include "cross.h"
 

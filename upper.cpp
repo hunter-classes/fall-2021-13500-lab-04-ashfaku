@@ -1,3 +1,11 @@
+/*
+Author: Ashfak Uddin
+Course: CSCI-136
+Instructor: Mike Zamansky
+Assignment: Lab4E
+
+This file defines the upperhalf(int) function that returns a string that's the upper half of a square of asterisks with an inputted dimension.
+*/
 #include <iostream>
 #include "upper.h"
 std::string upperhalf(int d)
